@@ -1,0 +1,562 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675267545126615, "dur": 1235628, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675267545126820, "dur": 7400, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675267545134223, "dur": 33178, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675267545167403, "dur": 450812, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675267545618218, "dur": 729969, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675267546348189, "dur": 14054, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675267546362817, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675267545483845, "dur": 118150, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675267545484633, "dur": 32696, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675267545589125, "dur": 3699, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675267545592830, "dur": 9153, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675267545593379, "dur": 7805, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675267545605880, "dur": 1006, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675267545605211, "dur": 1694, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675267546362913, "dur": 162, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675267545673867, "dur":1549, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267545675422, "dur":48, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675267545675478, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675267545675490, "dur":492, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675267545676018, "dur":544, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267545676562, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330217, "dur":94, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330311, "dur":151, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330462, "dur":37, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330500, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330510, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330511, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330519, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330521, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330526, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330527, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330532, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330533, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330537, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330538, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330543, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330544, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330548, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330549, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330553, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330555, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330560, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330561, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330565, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330566, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330570, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330572, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330575, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330577, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330581, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330582, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330586, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330588, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330592, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330603, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546330614, "dur":1475, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675267545676199, "dur":368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545676569, "dur":3906, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545680488, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675267545680494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545682187, "dur":2452, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675267545684646, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675267545684706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545684918, "dur":5901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675267545690820, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1675267545690941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545690947, "dur":65050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1675267545756090, "dur":23348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267545779442, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545779451, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267545780560, "dur":18898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267545799464, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545799478, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267545800614, "dur":119026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267545919647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545919659, "dur":32547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267545952262, "dur":15833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267545968098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267545968108, "dur":6931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267545975085, "dur":63459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267546038549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267546038559, "dur":8997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267546047595, "dur":69621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267546117222, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267546117235, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267546118981, "dur":205758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267546324743, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675267546324753, "dur":5401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675267546330182, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1675267546330183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267545676267, "dur":312, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267545676579, "dur":3901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267545680489, "dur":638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675267545681130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267545685820, "dur":69535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1675267545755404, "dur":52382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267545807791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267545807803, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267545809269, "dur":76441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267545885715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267545885725, "dur":44039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267545929846, "dur":57399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267545987250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267545987262, "dur":9823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267545997136, "dur":826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267545997965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267545997973, "dur":9218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267546007242, "dur":765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267546008010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267546008021, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267546009325, "dur":28679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267546038010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267546038025, "dur":7663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267546045736, "dur":128954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267546174694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675267546174705, "dur":2384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675267546177142, "dur":153070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545676313, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545676583, "dur":3893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545680487, "dur":20111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1675267545700604, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545700943, "dur":54777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1675267545755780, "dur":33992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545789776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545789787, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545791308, "dur":60055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545851369, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545851384, "dur":4723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545856159, "dur":28564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545884730, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545884744, "dur":32199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545916991, "dur":10715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545927711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545927721, "dur":23865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545951639, "dur":37136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545988781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267545988790, "dur":10651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267545999482, "dur":32165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267546031656, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546031670, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267546033107, "dur":77719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267546110833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546110873, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267546113041, "dur":46309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267546159358, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546159372, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675267546161519, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675267546161644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546161655, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675267546163880, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675267546163954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546163964, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675267546165883, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675267546165931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546165937, "dur":1199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675267546167190, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1675267546167234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546167241, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1675267546168254, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675267546168306, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546168315, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675267546172534, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1675267546172689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675267546172722, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1675267546174133, "dur":156080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545676228, "dur":343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545676571, "dur":3917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545680490, "dur":896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675267545681390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545685993, "dur":69476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675267545755669, "dur":16972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545772646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545772763, "dur":1913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545774718, "dur":18286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545793008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545793016, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545794201, "dur":29695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545823902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545823913, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545825096, "dur":13082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545838183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545838192, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545841289, "dur":17094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545858387, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545858400, "dur":4881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545863333, "dur":28440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545891779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545891791, "dur":37684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545929534, "dur":14835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545944376, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267545944387, "dur":10676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267545955113, "dur":106142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267546061259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267546061269, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267546062284, "dur":180955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267546243244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675267546243253, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675267546245261, "dur":84958, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267545676249, "dur":326, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267545676575, "dur":3907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267545680487, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1675267545681061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267545686014, "dur":69212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1675267545755283, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1675267545755421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267545755813, "dur":39237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1675267545795105, "dur":107203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267545902314, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267545902324, "dur":28526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267545930906, "dur":15301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267545946211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267545946221, "dur":21361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267545967636, "dur":29829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267545997468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267545997477, "dur":6879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267546004401, "dur":53586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267546057990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267546057997, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267546059686, "dur":27765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267546087455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267546087464, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267546089052, "dur":96482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267546185539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675267546185547, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675267546186863, "dur":143364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545676319, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545676588, "dur":3893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545680488, "dur":10298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1675267545690791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545690814, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1675267545691885, "dur":62454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1675267545754347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545754360, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1675267545756454, "dur":15211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545771669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545771827, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545773017, "dur":16747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545789771, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545789787, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545791147, "dur":14036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545805190, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545805206, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545806689, "dur":31049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545837744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545837756, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545840702, "dur":30829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545871536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545871545, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545874821, "dur":35413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545910238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545910246, "dur":39812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545950101, "dur":16562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545966671, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267545966689, "dur":7517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267545974265, "dur":82659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267546056930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267546056943, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267546059942, "dur":183539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267546243483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675267546243489, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675267546245365, "dur":84864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545676345, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545676591, "dur":3887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545680489, "dur":7332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1675267545687826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545688159, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1675267545690894, "dur":22773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545713673, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545714120, "dur":41595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545755775, "dur":35217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545790996, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545791006, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545791983, "dur":13222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545805209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545805217, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545806538, "dur":28198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545834740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545834750, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545835874, "dur":31853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545867733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545867746, "dur":6747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545874537, "dur":22339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545896879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545896887, "dur":33429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545930375, "dur":19833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545950212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267545950224, "dur":20292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267545970570, "dur":87133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267546057707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267546057713, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267546059819, "dur":152432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267546212256, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675267546212266, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675267546213458, "dur":116765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545676374, "dur":221, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545676595, "dur":3891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545680486, "dur":9037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1675267545689526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545689542, "dur":1260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1675267545690846, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1675267545690958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545690967, "dur":64720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1675267545755748, "dur":30068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545785824, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545785838, "dur":1206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545787094, "dur":14018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545801117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545801127, "dur":1004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545802181, "dur":18616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545820881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545820894, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545822101, "dur":33620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545855730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545855745, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545857242, "dur":16696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545873943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545873954, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545875134, "dur":16754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545891892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545891901, "dur":37685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545929648, "dur":13086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545942742, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545942756, "dur":16105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545964649, "dur":31705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267545996362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267545996377, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267546000440, "dur":35061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267546035505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267546035514, "dur":4692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267546040248, "dur":148202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267546188487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675267546188502, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675267546190499, "dur":139745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545676410, "dur":188, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545676598, "dur":3880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545680488, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1675267545680866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545686065, "dur":69811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1675267545755991, "dur":21573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545777573, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545777588, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545778807, "dur":14176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545792991, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545793005, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545794221, "dur":40018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545834247, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545834262, "dur":1423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545835726, "dur":42588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545878318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545878331, "dur":25384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545903746, "dur":19935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545923785, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545923796, "dur":27748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545951900, "dur":44713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267545996617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267545996627, "dur":7470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546004150, "dur":694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546004849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267546004859, "dur":2381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546007286, "dur":21187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546028482, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267546028499, "dur":4476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546033026, "dur":20133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546053197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267546053212, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546054753, "dur":28640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546083400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267546083412, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546084962, "dur":114906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546199874, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1675267546199885, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1675267546201709, "dur":128531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675267545676462, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675267545676601, "dur":3889, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675267545680491, "dur":7354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675267545687848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675267545688146, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1675267545691040, "dur":326080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675267546017126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675267546017137, "dur":18061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675267546035246, "dur":48814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675267546084065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675267546084074, "dur":4459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675267546088581, "dur":96893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675267546185481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1675267546185492, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1675267546186873, "dur":143355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675267545676477, "dur":127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675267545676604, "dur":3891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675267545680495, "dur":7412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1675267545687910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675267545688153, "dur":2718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1675267545690922, "dur":223742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675267545914668, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675267545914780, "dur":19195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675267545934034, "dur":12806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675267545946843, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675267545946849, "dur":5312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675267545952210, "dur":32043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675267545984261, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675267545984275, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675267545986016, "dur":189461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675267546175482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1675267546175492, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1675267546177626, "dur":152605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267545676496, "dur":112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267545676608, "dur":3883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267545680491, "dur":971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1675267545681464, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267545685755, "dur":69452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1675267545755264, "dur":31266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game.exe" }}
+,{ "pid":12345, "tid":12, "ts":1675267545786534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267545786543, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game.exe" }}
+,{ "pid":12345, "tid":12, "ts":1675267545787951, "dur":71445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267545859495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267545859508, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267545864606, "dur":39739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267545904348, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267545904357, "dur":45555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267545949974, "dur":17400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267545967378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267545967395, "dur":7152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267545974597, "dur":59965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267546034569, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267546034581, "dur":5302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267546039927, "dur":79108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267546119039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267546119049, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267546120093, "dur":147204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267546267303, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1675267546267314, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1675267546268329, "dur":61906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267545676512, "dur":99, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267545676611, "dur":3876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267545680488, "dur":929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1675267545681422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267545685731, "dur":161900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1675267545847688, "dur":17510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267545865202, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267545865215, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267545866215, "dur":18868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267545885088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267545885097, "dur":31448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267545916598, "dur":80777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267545997379, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267545997419, "dur":10053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267546007518, "dur":25953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267546033476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267546033488, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267546034712, "dur":199255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267546233972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1675267546233982, "dur":5836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1675267546239855, "dur":90367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267545676532, "dur":82, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267545676615, "dur":3866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267545680487, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1675267545681046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267545685823, "dur":163931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1675267545849807, "dur":36016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267545885828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267545885836, "dur":43116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267545929017, "dur":13747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267545942800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267545942809, "dur":10284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267545953145, "dur":34376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267545987526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267545987534, "dur":11462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267545999046, "dur":44249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267546043302, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267546043316, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267546046475, "dur":84040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267546130522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267546130535, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267546134092, "dur":35030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267546169125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1675267546169134, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1675267546173379, "dur":156839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267545676555, "dur":63, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267545676618, "dur":3866, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267545680488, "dur":8795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1675267545689288, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267545689362, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1675267545690803, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1675267545690928, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267545690935, "dur":165372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1675267545856364, "dur":14750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675267545871122, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267545871137, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675267545874463, "dur":32762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675267545907229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267545907238, "dur":42599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675267545949901, "dur":107776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675267546057682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546057693, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675267546059575, "dur":82939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675267546142520, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546142533, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1675267546143630, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":15, "ts":1675267546143752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546144513, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":15, "ts":1675267546145392, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1675267546145436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546145503, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1675267546146521, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1675267546146561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546146567, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1675267546147995, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1675267546148037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546148043, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":15, "ts":1675267546149636, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1675267546149767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546149774, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":15, "ts":1675267546150701, "dur":14159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1675267546164864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546164874, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1675267546168891, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1675267546168935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1675267546168943, "dur":4930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1675267546173916, "dur":156299, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545676600, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545676601, "dur":3884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545680488, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1675267545680849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545685518, "dur":69832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1675267545755422, "dur":16066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545771495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545771814, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545772954, "dur":84370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545857328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545857341, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545858305, "dur":14754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545873064, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545873075, "dur":5161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545878291, "dur":17242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545895634, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545895648, "dur":34303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545930014, "dur":16391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545946408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267545946414, "dur":21385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267545967849, "dur":50362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267546018217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267546018231, "dur":6582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267546024872, "dur":38291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267546063167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267546063177, "dur":1437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267546064655, "dur":41019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267546105681, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267546105695, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267546107141, "dur":100969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267546208115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1675267546208125, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/sjaco/Programming/Unity/Stealth Game/Stealth-Game/Stealth Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":16, "ts":1675267546209600, "dur":120625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675267546333371, "dur":1368, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675267546363123, "dur": 741, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675267546362804, "dur": 1077, "ph": "X", "name": "Write chrome-trace events", "args": {} },
